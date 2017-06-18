@@ -34,6 +34,9 @@ $app->get('/contact', function() use ($app)
 })
 ->bind('contact');
 
+$app->before(function (Request $request) use ($app) {
+    $app['twig']->addGlobal('current_page', $request->getRequestUri());
+});
 
 $app->error(function() use ($app){
 
