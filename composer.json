@@ -1,6 +1,6 @@
 {
     "require": {
         "silex/silex": "^2.1",
-        "twig/twig": "^1.34"
+        "symfony/twig-bridge": "^3.2"
     }
 }

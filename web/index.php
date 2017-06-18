@@ -19,23 +19,20 @@ $app['debug'] = true;
 // Services
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
 	'twig.path' => __DIR__.'/../views',
-	));
+));
 
 // Create routes
 $app->get('/', function() use ($app)
 {
-
 	return $app['twig']->render('pages/home.twig');
 })
 ->bind('home');
 
 $app->get('/contact', function() use ($app)
 {
-
 	return $app['twig']->render('pages/contact.twig');
 })
 ->bind('contact');
-
 
 
 $app->error(function() use ($app){
