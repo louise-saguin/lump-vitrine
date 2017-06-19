@@ -34,6 +34,12 @@ $app->get('/contact', function() use ($app)
 })
 ->bind('contact');
 
+$app->get('/mentions-legales', function() use ($app)
+{
+	return $app['twig']->render('pages/legal.twig');
+})
+->bind('legal');
+
 $app->before(function (Request $request) use ($app) {
     $app['twig']->addGlobal('current_page', $request->getRequestUri());
 });
