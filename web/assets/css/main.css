@@ -5,6 +5,17 @@ body
     font-family: 'Montserrat', sans-serif;
 }
 
+.clear
+{
+	clear: both;
+}
+
+.container
+{
+	width: 1170px;
+	margin: 0 auto;
+}
+
 header,
 nav
 {
@@ -34,4 +45,37 @@ nav a:last-child
 
 nav a:hover{
     color:#BAA0E1;
+	padding: 15px 20px;
+	background: linear-gradient(to top, #BAA0E1,#70A6F0);
+	border-radius: 5px;
+}
+
+footer
+{
+	height: 120px;
+	background: linear-gradient(to top, #BAA0E1,#70A6F0);
+	-webkit-box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.4);
+}
+
+footer .footer-container
+{
+	width: 740px;
+	margin: 0 auto;
+	line-height: 120px;
+}
+
+footer .footer-container .half
+{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+footer .footer-container .half a
+{
+	font-size: 20px;
+	color: #fefefe;
+	text-decoration: none;
 }
