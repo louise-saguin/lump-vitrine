@@ -1,6 +1,6 @@
 Options -MultiViews
 
 RewriteEngine On
-RewriteBase /lump-vitrine/web
+RewriteBase /Lump_vitrine/web
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]

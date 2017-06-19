@@ -1,5 +1,22 @@
 {{ include('partials/header.twig') }}
 
-<h2>contact</h2>
+<div class="background">
+   
+    <h1 class="contact-title">Contactez l'équipe de Lump</h1>
+    <div class="form-contact">
+
+        {{ form_start(contact_form) }}
+        <label> Email </label>
+        <div>{{ form_widget(contact_form.email) }}</div>
+        <label> Objet </label>
+        <div>{{ form_widget(contact_form.title) }}</div>
+        <label> Message </label>
+        <div>{{ form_widget(contact_form.body) }}</div>
+        <div>
+            {{ form_widget(contact_form.submit) }}
+        </div>
+        {{ form_end(contact_form) }}
+    </div>
+</div>
 
 {{ include('partials/footer.twig') }}

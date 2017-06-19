@@ -1,0 +1,81 @@
+.background{
+    position:relative;
+    background:url(../../uploads/img/back-contact.png)no-repeat center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+}
+
+.contact-title{
+    font-size:37px;
+    font-weight:bold;
+    color:#f8f8f8;
+    text-align:center;
+    padding-bottom:25px;
+    position:absolute;
+    left:50%;
+    top:28%;
+    transform:translate(-50%, -50%)
+}
+
+.form-contact{
+    width:25%;
+    border-radius:2px;
+    position:absolute;
+    left:50%;
+    top:60%;
+    transform:translate(-50%, -50%)
+}
+
+.form-contact label{
+    color:#f8f8f8;
+    font-size:20px;
+    font-weight:lighter;
+}
+
+.form-contact div{
+    margin:6px 0px 25px 0px;
+    border-radius:1px;
+    text-align:left;
+}
+
+.form-contact div input{
+    padding:25px 15px;
+    width: 100%;
+    background-color:rgba(255,255,255,0.3);
+}
+
+.form-contact div textarea{
+    resize:none;
+    width:100%;
+    height:90px;
+    box-sizing:border-box;
+    background-color:rgba(255,255,255,0.3);
+}
+
+.form-contact div input:focus, textarea:focus{
+    outline: 1px rgba(255,255,255,0.8) solid;
+    background-color:rgba(112,166,240,0.2);
+    border-radius:2px;
+}
+
+.form-contact div:last-child{
+    
+    color:#f8f8f8;
+    flex:1 1 auto;
+    margin:10px;
+    padding:20px;
+    border:2px solid #f8f8f8;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.form-contact div:last-child:hover{
+    border: 2px solid #f8f8f8;
+    color:#f8f8f8;
+    font-weight:bold;
+    background:none;
+    background-image:linear-gradient(to left, #BAA0E1,#70A6F0);
+}
+
+
