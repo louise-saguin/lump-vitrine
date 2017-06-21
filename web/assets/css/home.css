@@ -45,23 +45,30 @@
 
 .subscribe h2
 {
-	font-size: 18px;
+	font-size: 24px;
+	font-weight: bold;
 	margin-bottom: 80px;
 	color: #111
 }
 
 .subscribe input
 {
+	text-align: center;
 	display: block;
-	width: 60%;
-	height: 40px;
+	width: 30%;
+	height: 50px;
 	margin: 0 auto;
 	margin-bottom: 80px;
 	border-bottom: 1px solid #333;
 }
 
+.subscribe input:focus
+{
+	border-bottom: 1px solid #74a6ef;
+}
+
 .subscribe ::-webkit-input-placeholder {
-   text-align: center;
+	text-align: center;
 }
 
 .subscribe a
@@ -283,6 +290,11 @@
 	bottom: 40px;
 }
 
+.vote .vote-img img
+{
+	width: 100%;
+}
+
 .event 
 {
 	height: 90%;
@@ -393,6 +405,10 @@
 .pro
 {
 	padding-top: 200px;
+}
+
+.pro-text
+{
 	padding-left: 180px;
 }
 
@@ -494,4 +510,280 @@
 .arrows img
 {
 	display: block;
+}
+
+@media (max-width: 1400px) 
+{
+	.presentation
+	{
+		padding-top: 220px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.discover
+	{
+		padding-top: 120px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 1200px) 
+{
+	.presentation
+	{
+		padding-top: 120px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.discover
+	{
+		padding-top: 120px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 992px) 
+{
+	.presentation
+	{
+		height: 80%;
+		padding-top: 220px;
+	}
+	.subscribe input 
+	{
+		width: 60%;
+	}
+	.share .nav
+	{
+		height: 120px;
+	}
+	.share .nav .item
+	{
+		height: 50%;
+		width: 100%;
+	}
+	.share .slider-container .slider-1 .left
+	{
+		padding: 10px;
+	}
+	.share .slider-container .slider-1 .right img
+	{
+		right: 0;
+		bottom: 50px;
+		width: 100%;
+	}
+	.event .slider-container .slider
+	{
+		padding-top: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.pro
+	{
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.pro .pro-text
+	{
+		padding-left: 0px;
+	}
+	.social
+	{
+		padding-top: 60px;
+	}
+	.social .text
+	{
+		padding-left: 20px;
+	}
+	.social .text h2
+	{
+		font-size: 36px;
+	}
+	.social .text p
+	{
+		font-size: 16px;
+	}
+	.social .left
+	{
+		width: 100%;
+	}
+	.social .social-img-1
+	{
+		padding: 10px;
+		text-align: center;
+	}
+	.social .social-img-2
+	{
+		display: none;
+	}
+	.arrows
+	{
+		display: none;
+	}
+}
+
+@media (max-width: 767px) 
+{
+	.presentation
+	{
+		height: 90%;
+		padding-top: 120px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.discover
+	{
+		padding-top: 120px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.pro
+	{
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.pro .pro-text
+	{
+		padding-left: 0px;
+	}
+	.pro .pro-text h2
+	{
+		font-size: 36px;
+	}
+	.square-container
+	{
+		margin: 0 auto;
+		width: 50%;
+		float: none;
+		padding-top: 35px;
+	}
+	.square-container .square-text
+	{
+		margin-top: 30px;
+	}
+	.vote .vote-text
+	{
+		padding-top: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.event .slider-container .slider
+	{
+		padding-top: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.event .slider-container .slider p
+	{
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+	.event .slider-container .slider span
+	{
+		margin-bottom: 0px;
+		font-size: 14px;
+	}
+	.event .slider-container .slider h3
+	{
+		margin-bottom: 10px;
+	}
+	.event .nav
+	{
+		width: 90%;
+	}
+	.vote .vote-text h2
+	{
+		margin-bottom: 10px;
+	}
+	.vote .vote-img
+	{
+		margin-top: 10px;
+		position: static;
+	}
+	.presentation .title
+	{
+		font-size: 52px;
+	}
+	.presentation h1
+	{
+		font-size: 28px;
+	}
+	.presentation p
+	{
+		font-size: 14px;
+	}
+	.subscribe input 
+	{
+		width: 80%;
+	}
+	.share .nav
+	{
+		height: 120px;
+	}
+	.share .nav .item
+	{
+		height: 50%;
+		width: 100%;
+	}
+	.share .slider-container .slider-1 .left
+	{
+		padding: 10px;
+	}
+	.share .slider-container .slider-1 .left h2
+	{
+		font-size: 32px;
+	}
+	.share .slider-container .slider-1 .left ul
+	{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.share .slider-container .slider-1 .left ul li
+	{
+		
+		margin-bottom: 10px;
+	}
+	.share .slider-container .slider-1 .right img
+	{
+		right: 0;
+		bottom: 50px;
+		width: 100%;
+	}
+	.social
+	{
+		padding-top: 60px;
+	}
+	.social .text
+	{
+		padding-left: 20px;
+	}
+	.social .text h2
+	{
+		font-size: 36px;
+	}
+	.social .text p
+	{
+		font-size: 16px;
+	}
+	.arrows
+	{
+		display: none;
+	}
+	.social .left
+	{
+		width: 100%;
+	}
+	.social .social-img-1
+	{
+		padding: 10px;
+		text-align: center;
+	}
+	.social .social-img-2
+	{
+		display: none;
+	}
 }

@@ -43,11 +43,8 @@ nav a:last-child
     border-radius: 5px;
 }
 
-nav a:hover{
-    color:#BAA0E1;
-	padding: 15px 20px;
-	background: linear-gradient(to top, #BAA0E1,#70A6F0);
-	border-radius: 5px;
+nav a:not(:last-child):hover{
+  color:#74A6EF;
 }
 
 footer
@@ -61,7 +58,7 @@ footer
 
 footer .footer-container
 {
-	width: 740px;
+	width: 100%;
 	margin: 0 auto;
 	line-height: 120px;
 }
@@ -78,4 +75,38 @@ footer .footer-container .half a
 	font-size: 20px;
 	color: #fefefe;
 	text-decoration: none;
+}
+
+
+@media (max-width: 1200px) 
+{
+	.container
+	{
+		width: 970px;
+	}
+}
+
+@media (max-width: 992px) 
+{
+	.container
+	{
+		width: 750px;
+	}
+}
+
+@media (max-width: 768px) 
+{
+	.container
+	{
+		width: 100%;
+		padding: 0 10px;
+	}
+	nav
+	{
+		padding: 0;
+	}
+	nav a 
+	{
+		margin: 0 10px;
+	}
 }
