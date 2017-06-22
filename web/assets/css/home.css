@@ -1,789 +1,925 @@
 .presentation
 {
-	height: 100%;
-	background: url("../../uploads/img/lump-home.png");
-	color: #fefefe;
-	padding-top: 380px;
+    height: 100%;
+    background: url("../../uploads/img/lump-home-1920.png");
+    color: #fefefe;
+    padding-top: 380px;
 }
 
 .presentation .title
 {
-	font-size: 150px;
-	font-family: futura;
+    font-size: 150px;
+    font-family: futura;
 }
 
 .presentation h1
 {
-	font-size: 48px;
-	margin-bottom: 60px;
-	font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 60px;
+    font-weight: bold;
 }
 
 .presentation p
 {
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 100px;
 }
 
 .presentation a
 {
-	font-size: 18px;
-	padding: 15px 20px;
-	background: linear-gradient(to top, #BAA0E1,#70A6F0);
-	border-radius: 5px;
-	text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+    background: linear-gradient(to top, #BAA0E1,#70A6F0);
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .subscribe
 {
-	height: 500px;
-	background-color: #fefefe;
-	text-align: center;
-	padding-top: 160px 
+    height: 500px;
+    background-color: #fefefe;
+    text-align: center;
+    padding-top: 160px 
 }
 
 .subscribe h2
 {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 80px;
-	color: #111
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    color: #111
 }
 
 .subscribe input
 {
-	text-align: center;
-	display: block;
-	width: 30%;
-	height: 50px;
-	margin: 0 auto;
-	margin-bottom: 80px;
-	border-bottom: 1px solid #333;
+    text-align: center;
+    display: block;
+    width: 30%;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border-bottom: 1px solid #333;
 }
 
 .subscribe input:focus
 {
-	border-bottom: 1px solid #74a6ef;
+    border-bottom: 1px solid #74a6ef;
 }
 
 .subscribe ::-webkit-input-placeholder {
-	text-align: center;
+    text-align: center;
 }
 
 .subscribe a
 {
-	font-size: 18px;
-	padding: 15px 20px;
-	background: linear-gradient(to top, #BAA0E1,#70A6F0);
-	border-radius: 5px;
-	text-decoration: none;
-	color: #fefefe;
+    font-size: 18px;
+    padding: 15px 20px;
+    background: linear-gradient(to top, #BAA0E1,#70A6F0);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fefefe;
 }
 
 .discover
 {
-	height: 80%;
-	background: url("../../uploads/img/lump-decouvrir.png");
-	color: #fefefe;
-	padding-top: 500px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    height: 80%;
+    background: url("../../uploads/img/lump-decouvrir-1920.png");
+    color: #fefefe;
+    padding-top: 500px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .discover h2
 {
-	font-size: 48px;
-	margin-bottom: 10px;
+    font-size: 48px;
+    margin-bottom: 10px;
 }
 
 .discover p
 {
-	font-size: 18px;
-	margin-bottom: 60px;
+    font-size: 18px;
+    margin-bottom: 60px;
 }
 
 .discover a
 {
-	font-size: 18px;
-	padding: 15px 20px;
-	background: linear-gradient(to top, #BAA0E1,#70A6F0);
-	border-radius: 5px;
-	text-decoration: none;
-	color: #fefefe;
+    font-size: 18px;
+    padding: 15px 20px;
+    background: linear-gradient(to top, #BAA0E1,#70A6F0);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fefefe;
 }
 
 .share
 {
-	height: 90%;
-	overflow: hidden;
+    height: 90%;
+    overflow: hidden;
 }
 
 .share .nav
 {
-	height: 10%;
-	line-height: 80px;
-	-webkit-box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
-	box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
+    height: 10%;
+    line-height: 80px;
+    -webkit-box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
 }
 
 .share .nav .item
 {
-	cursor: pointer;
-	float: left;
-	width: 50%;
-	height: 100%;
-	text-align: center;
-	font-size: 24px;
-	border-bottom: 3px #fff solid;
+    cursor: pointer;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 3px #fff solid;
 }
 
 .current-item
 {
-	border-bottom: 3px #666 solid!important;
+    border-bottom: 3px #666 solid!important;
 }
 
 .share .slider-container
 {
-	position: relative;
-	height: 90%;
-	width: 200%;
-	transition: 0.3s ease-in all;
-	will-change: transform;
+    position: relative;
+    height: 90%;
+    width: 200%;
+    transition: 0.3s ease-in all;
+    will-change: transform;
 }
 
 .share .slider-container .slider
 {
-	position: absolute;
-	z-index: -5;
-	height: 100%;
-	width: 50%;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    position: absolute;
+    z-index: -5;
+    height: 100%;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .share .slider-container .slider-1 .left
 {
-	width: 50%;
-	height: 100%;
-	float: left;
-	padding-top: 180px; 
-	padding-left: 200px; 
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 180px; 
+    padding-left: 200px; 
 }
 
 .share .slider-container .slider-1 .left h2
 {
-	font-size: 48px;
+    font-size: 48px;
 }
 
 .share .slider-container .slider-1 .left ul
 {
-	margin-top: 60px;
-	font-size: 18px;
-	line-height: 140%;
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 140%;
 }
 
 .share .slider-container .slider-1 .left ul li
 {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .share .slider-container .slider-1 .right
 {
-	width: 50%;
-	height: 100%;
-	float: left;
-	position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
 }
 
 .share .slider-container .slider-1 .right img
 {
-	position: absolute;
-	right: 15px;
-	bottom: 0px;
-	width: 60%;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    width: 60%;
 }
 
 .share .slider-container .slider-2
 {
-	left: 50%;
+    left: 50%;
 }
 
 .share .slider-container .slider-2 .right
 {
-	width: 50%;
-	height: 100%;
-	float: left;
-	padding-left: 20px; 
-	padding-top: 180px; 
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 20px; 
+    padding-top: 180px; 
 }
 
 .share .slider-container .slider-2 .right h2
 {
-	font-size: 48px;
+    font-size: 48px;
 }
 
 .share .slider-container .slider-2 .right ul
 {
-	margin-top: 60px;
-	font-size: 18px;
-	line-height: 140%;
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 140%;
 }
 
 .share .slider-container .slider-2 .right ul li
 {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .share .slider-container .slider-2 .left
 {
-	width: 50%;
-	height: 100%;
-	float: left;
-	position: relative;
-	overflow: hidden;
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
 }
 
 .share .slider-container .slider-2 .left img
 {
-	position: absolute;
-	left: 0%;
-	width: 90%;
-	bottom: 0px;
+    position: absolute;
+    left: 0%;
+    width: 90%;
+    bottom: 0px;
 }
 
 .vote
 {
-	height: 80%;
-	-webkit-box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.3);
-	box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.3);
-	background: url('../../uploads/img/coeurs.png');
-	position: relative;
+    height: 80%;
+    -webkit-box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px -1px 8px 0px rgba(0,0,0,0.3);
+    background: url('../../uploads/img/coeurs-1920.png');
+    position: relative;
 }
 
 .vote .vote-text
 {
-	padding-left: 180px;
-	padding-top: 200px;
+    padding-left: 180px;
+    padding-top: 200px;
 }
 
 .vote .vote-text h2
 {
-	font-size: 52px;
-	margin-bottom: 60px;
+    font-size: 52px;
+    margin-bottom: 60px;
 }
 
 .vote .vote-text p
 {
-	font-size: 22px;
-	line-height: 180%;
+    font-size: 22px;
+    line-height: 180%;
 }
 
 .vote .vote-img
 {
-	position: absolute;
-	right: 40px;
-	bottom: 40px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
 }
 
 .vote .vote-img img
 {
-	width: 100%;
+    width: 100%;
 }
 
 .event 
 {
-	height: 90%;
-	overflow: hidden;
-	position: relative;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
 }
 
 .event .slider-container
 {
-	height: 100%;
-	width: 300%;
-	transition: 0.3s ease-in all;
-	will-change: transform;
+    height: 100%;
+    width: 300%;
+    transition: 0.3s ease-in all;
+    will-change: transform;
 }
 
 .event .nav
 {
-	position: absolute;
-	left: 50%;
-	bottom: 10%;
-	transform: translateX(-50%);
-	width: 40%;
-	height: 60px;
-	background: linear-gradient(to top, #BAA0E1,#70A6F0);
-	border-radius: 8px;
-	padding: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 60px;
+    background: linear-gradient(to top, #BAA0E1,#70A6F0);
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .event .nav .items
 {
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	font-size: 18px;
-	line-height: 50px;
-	background-color: #fefefe;
-	border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    background-color: #fefefe;
+    border-radius: 5px;
 }
 
 .event .nav .items .item
 {
-	width: 33.33%;
-	float: left;
-	height: 100%;
-	cursor: pointer;
+    width: 33.33%;
+    float: left;
+    height: 100%;
+    cursor: pointer;
 }
 
 .event .slider-container .slider
 {
-	height: 100%;
-	width: 33.33%;
-	float: left;
-	color: #fefefe;
-	padding-top: 200px;
-	padding-left: 180px;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    color: #fefefe;
+    padding-top: 200px;
+    padding-left: 180px;
 
 }
 
 .event .slider-container .slider h2
 {
-	font-size: 52px;
-	margin-bottom: 30px;
+    font-size: 52px;
+    margin-bottom: 30px;
 }
 
 .event .slider-container .slider p
 {
-	font-size: 20px;
-	line-height: 170%;
-	margin-bottom: 100px;
+    font-size: 20px;
+    line-height: 170%;
+    margin-bottom: 100px;
 }
 
 .event .slider-container .slider h3
 {
-	font-size: 20px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .event .slider-container .slider span
 {
-	display: block;
-	font-size: 20px;
-	margin-bottom: 5px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .event .slider-container .slider-1
 {
-	background: url('../../uploads/img/event-1.png');
+    background: url('../../uploads/img/event-1-1920.png');
 }
 
 .event .slider-container .slider-2
 {	
-	background: url('../../uploads/img/event-2.png');
+    background: url('../../uploads/img/event-2-1920.png');
 }
 
 .event .slider-container .slider-3
 {
-	background: url('../../uploads/img/event-3.png');
+    background: url('../../uploads/img/event-3-1920.png');
 }
 
 .current-slide
 {
-	color: #fefefe;
-	background: linear-gradient(to top, #BAA0E1,#70A6F0);
+    color: #fefefe;
+    background: linear-gradient(to top, #BAA0E1,#70A6F0);
 }
 
 .pro
 {
-	padding-top: 200px;
+    padding-top: 200px;
 }
 
 .pro-text
 {
-	padding-left: 180px;
+    padding-left: 180px;
 }
 
 .pro h2
 {
-	font-size: 52px;
-	margin-bottom: 40px;
+    font-size: 52px;
+    margin-bottom: 40px;
 }
 
 .pro p
 {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .square-container
 {
-	text-align: center;
-	padding-top: 120px;
-	width: 25%;
-	float: left;
-	margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+    width: 25%;
+    float: left;
+    margin: 0 auto;
 }
 
 .square 
 {
-	margin: 0 auto;
-	width: 80px;
-	height: 80px;
-	background: linear-gradient(to left top, #BAA0E1,#70A6F0);
-	transform: rotate(45deg);
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to left top, #BAA0E1,#70A6F0);
+    transform: rotate(45deg);
 }
 
 .square-text
 {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 
 .social
 {
-	position: relative;
-	padding-top: 140px;
+    position: relative;
+    padding-top: 140px;
 }
 
 .social .left
 {
-	width: 50%;
-	float: left;
-	padding-top: 60px;
+    width: 50%;
+    float: left;
+    padding-top: 60px;
 }
 
 .social .text 
 {
-	padding-left: 180px;
+    padding-left: 180px;
 }
 
 .social .text h2
 {
-	font-size: 52px;
-	margin-bottom: 40px;
+    font-size: 52px;
+    margin-bottom: 40px;
 }
 
 .social .text p
 {
-	font-size: 20px;
-	line-height: 160%;
+    font-size: 20px;
+    line-height: 160%;
 }
 
 .social .social-img-1
 {
-	padding-top: 50px;
-	padding-left: 200px;
+    padding-top: 50px;
+    padding-left: 200px;
 }
 
 .social .social-img-1 img
 {
-	width: 70%;
+    width: 70%;
 }
 
 .social .social-img-2
 {
-	float: left;
-	width: 50%;
-	text-align: right;
+    float: left;
+    width: 50%;
+    text-align: right;
 }
 
 .social .social-img-2 img
 {
-	width: 80%;
+    width: 80%;
 }
 
 .arrows
 {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translateX(-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .arrows img
 {
-	display: block;
+    display: block;
 }
 
 @media (max-width: 1400px) 
 {
-	.presentation
-	{
-		padding-top: 220px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.discover
-	{
-		padding-top: 120px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+    .presentation
+    {
+        padding-top: 220px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .discover
+    {
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 1200px) 
 {
-	.presentation
-	{
-		padding-top: 120px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.discover
-	{
-		padding-top: 120px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+    .presentation
+    {
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .discover
+    {
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 992px) 
 {
-	.presentation
-	{
-		height: 80%;
-		padding-top: 220px;
-	}
-	.subscribe input 
-	{
-		width: 60%;
-	}
-	.share .nav
-	{
-		height: 120px;
-	}
-	.share .nav .item
-	{
-		height: 50%;
-		width: 100%;
-	}
-	.share .slider-container .slider-1 .left
-	{
-		padding: 10px;
-	}
-	.share .slider-container .slider-1 .right img
-	{
-		right: 0;
-		bottom: 50px;
-		width: 100%;
-	}
-	.event .slider-container .slider
-	{
-		padding-top: 40px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.pro
-	{
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.pro .pro-text
-	{
-		padding-left: 0px;
-	}
-	.social
-	{
-		padding-top: 60px;
-	}
-	.social .text
-	{
-		padding-left: 20px;
-	}
-	.social .text h2
-	{
-		font-size: 36px;
-	}
-	.social .text p
-	{
-		font-size: 16px;
-	}
-	.social .left
-	{
-		width: 100%;
-	}
-	.social .social-img-1
-	{
-		padding: 10px;
-		text-align: center;
-	}
-	.social .social-img-2
-	{
-		display: none;
-	}
-	.arrows
-	{
-		display: none;
-	}
+    .presentation
+    {
+        height: 80%;
+        padding-top: 220px;
+    }
+    .subscribe input 
+    {
+        width: 60%;
+    }
+    .share .nav
+    {
+        height: 120px;
+    }
+    .share .nav .item
+    {
+        height: 50%;
+        width: 100%;
+    }
+    .share .slider-container .slider-1 .left
+    {
+        padding: 10px;
+    }
+    .share .slider-container .slider-1 .right img
+    {
+        right: 0;
+        bottom: 50px;
+        width: 100%;
+    }
+    .event .slider-container .slider
+    {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pro
+    {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pro .pro-text
+    {
+        padding-left: 0px;
+    }
+    .social
+    {
+        padding-top: 60px;
+    }
+    .social .text
+    {
+        padding-left: 20px;
+    }
+    .social .text h2
+    {
+        font-size: 36px;
+    }
+    .social .text p
+    {
+        font-size: 16px;
+    }
+    .social .left
+    {
+        width: 100%;
+    }
+    .social .social-img-1
+    {
+        padding: 10px;
+        text-align: center;
+    }
+    .social .social-img-2
+    {
+        display: none;
+    }
+    .arrows
+    {
+        display: none;
+    }
 }
 
 @media (max-width: 767px) 
 {
-	.presentation
-	{
-		height: 90%;
-		padding-top: 120px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.discover
-	{
-		padding-top: 120px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.pro
-	{
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.pro .pro-text
-	{
-		padding-left: 0px;
-	}
-	.pro .pro-text h2
-	{
-		font-size: 36px;
-	}
-	.square-container
-	{
-		margin: 0 auto;
-		width: 50%;
-		float: none;
-		padding-top: 35px;
-	}
-	.square-container .square-text
-	{
-		margin-top: 30px;
-	}
-	.vote .vote-text
-	{
-		padding-top: 40px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.event .slider-container .slider
-	{
-		padding-top: 40px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.event .slider-container .slider p
-	{
-		margin-bottom: 10px;
-		font-size: 14px;
-	}
-	.event .slider-container .slider span
-	{
-		margin-bottom: 0px;
-		font-size: 14px;
-	}
-	.event .slider-container .slider h3
-	{
-		margin-bottom: 10px;
-	}
-	.event .nav
-	{
-		width: 90%;
-	}
-	.vote .vote-text h2
-	{
-		margin-bottom: 10px;
-	}
-	.vote .vote-img
-	{
-		margin-top: 10px;
-		position: static;
-	}
-	.presentation .title
-	{
-		font-size: 52px;
-	}
-	.presentation h1
-	{
-		font-size: 28px;
-	}
-	.presentation p
-	{
-		font-size: 14px;
-	}
-	.subscribe input 
-	{
-		width: 80%;
-	}
-	.share .nav
-	{
-		height: 120px;
-	}
-	.share .nav .item
-	{
-		height: 50%;
-		width: 100%;
-	}
-	.share .slider-container .slider-1 .left
-	{
-		padding: 10px;
-	}
-	.share .slider-container .slider-1 .left h2
-	{
-		font-size: 32px;
-	}
-	.share .slider-container .slider-1 .left ul
-	{
-		margin-top: 20px;
-		font-size: 16px;
-	}
-	.share .slider-container .slider-1 .left ul li
-	{
-		
-		margin-bottom: 10px;
-	}
-	.share .slider-container .slider-1 .right img
-	{
-		right: 0;
-		bottom: 50px;
-		width: 100%;
-	}
-	.social
-	{
-		padding-top: 60px;
-	}
-	.social .text
-	{
-		padding-left: 20px;
-	}
-	.social .text h2
-	{
-		font-size: 36px;
-	}
-	.social .text p
-	{
-		font-size: 16px;
-	}
-	.arrows
-	{
-		display: none;
-	}
-	.social .left
-	{
-		width: 100%;
-	}
-	.social .social-img-1
-	{
-		padding: 10px;
-		text-align: center;
-	}
-	.social .social-img-2
-	{
-		display: none;
-	}
+    .presentation
+    {
+        height: 90%;
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .discover
+    {
+        padding-top: 120px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pro
+    {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pro .pro-text
+    {
+        padding-left: 0px;
+    }
+    .pro .pro-text h2
+    {
+        font-size: 36px;
+    }
+    .square-container
+    {
+        margin: 0 auto;
+        width: 50%;
+        float: none;
+        padding-top: 35px;
+    }
+    .square-container .square-text
+    {
+        margin-top: 30px;
+    }
+    .vote .vote-text
+    {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .event .slider-container .slider
+    {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .event .slider-container .slider p
+    {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .event .slider-container .slider span
+    {
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    .event .slider-container .slider h3
+    {
+        margin-bottom: 10px;
+    }
+    .event .nav
+    {
+        width: 90%;
+    }
+    .vote .vote-text h2
+    {
+        margin-bottom: 10px;
+    }
+    .vote .vote-img
+    {
+        margin-top: 10px;
+        position: static;
+    }
+    .presentation .title
+    {
+        font-size: 52px;
+    }
+    .presentation h1
+    {
+        font-size: 28px;
+    }
+    .presentation p
+    {
+        font-size: 14px;
+    }
+    .subscribe input 
+    {
+        width: 80%;
+    }
+    .share .nav
+    {
+        height: 120px;
+    }
+    .share .nav .item
+    {
+        height: 50%;
+        width: 100%;
+    }
+    .share .slider-container .slider-1 .left
+    {
+        padding: 10px;
+    }
+    .share .slider-container .slider-1 .left h2
+    {
+        font-size: 32px;
+    }
+    .share .slider-container .slider-1 .left ul
+    {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .share .slider-container .slider-1 .left ul li
+    {
+
+        margin-bottom: 10px;
+    }
+    .share .slider-container .slider-1 .right img
+    {
+        right: 0;
+        bottom: 50px;
+        width: 100%;
+    }
+    .social
+    {
+        padding-top: 60px;
+    }
+    .social .text
+    {
+        padding-left: 20px;
+    }
+    .social .text h2
+    {
+        font-size: 36px;
+    }
+    .social .text p
+    {
+        font-size: 16px;
+    }
+    .arrows
+    {
+        display: none;
+    }
+    .social .left
+    {
+        width: 100%;
+    }
+    .social .social-img-1
+    {
+        padding: 10px;
+        text-align: center;
+    }
+    .social .social-img-2
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) 
+{
+    .presentation
+    {
+        background: url("../../uploads/img/opti/1200/lump-home-1200.png");
+    }
+    .event .slider-container .slider-1
+    {
+        background: url('../../uploads/img/opti/1200/event-1-1200.png');
+    }
+
+    .event .slider-container .slider-2
+    {	
+        background: url('../../uploads/img/opti/1200/event-2-1200.png');
+    }
+
+    .event .slider-container .slider-3
+    {
+        background: url('../../uploads/img/opti/1200/event-3-1200.png');
+    }
+    .discover
+    {
+        background: url("../../uploads/img/opti/1200/lump-decouvrir-1200.png");
+    }
+    .vote
+    {
+        background: url('../../uploads/img/opti/1200/coeurs-1200.png');
+    }
+    .background
+    {
+        background-image: url('../../uploads/img/opti/1200/back-contact-1200.png');
+    }
+}
+
+@media (max-width: 992px) 
+{
+.presentation
+    {
+        background: url("../../uploads/img/opti/992/lump-home-992.png");
+    }
+    .event .slider-container .slider-1
+    {
+        background: url('../../uploads/img/opti/992/event-1-992.png');
+    }
+
+    .event .slider-container .slider-2
+    {	
+        background: url('../../uploads/img/opti/992/event-2-992.png');
+    }
+
+    .event .slider-container .slider-3
+    {
+        background: url('../../uploads/img/opti/992/event-3-992.png');
+    }
+    .discover
+    {
+        background: url("../../uploads/img/opti/992/lump-decouvrir-992.png");
+    }
+    .vote
+    {
+        background: url('../../uploads/img/opti/992/coeurs-992.png');
+    }
+    .background
+    {
+        background-image: url('../../uploads/img/opti/992/back-contact-992.png');
+    }opti/
+}
+
+@media (max-width: 768px) 
+{
+    .presentation
+    {
+        background: url("../../uploads/img/opti/768/lump-home-768.png");
+    }
+    .event .slider-container .slider-1
+    {
+        background: url('../../uploads/img/opti/768/event-1-768.png');
+    }
+
+    .event .slider-container .slider-2
+    {	
+        background: url('../../uploads/img/opti/768/event-2-768.png');
+    }
+
+    .event .slider-container .slider-3
+    {
+        background: url('../../uploads/img/opti/768/event-3-768.png');
+    }
+    .discover
+    {
+        background: url("../../uploads/img/opti/768/lump-decouvrir-768.png");
+    }
+    .vote
+    {
+        background: url('../../uploads/img/opti/768/coeurs-768.png');
+    }
+    .background
+    {
+        background-image: url('../../uploads/img/opti/768/back-contact-768.png');
+    }
+}
+
+@media (max-width: 320px) 
+{
+    .presentation
+    {
+        background: url("../../uploads/img/opti/320/lump-home-320.png");
+    }
+    .event .slider-container .slider-1
+    {
+        background: url('../../uploads/img/opti/320/event-1-320.png');
+    }
+
+    .event .slider-container .slider-2
+    {	
+        background: url('../../uploads/img/opti/320/event-2-320.png');
+    }
+
+    .event .slider-container .slider-3
+    {
+        background: url('../../uploads/img/opti/320/event-3-320.png');
+    }
+    .discover
+    {
+        background: url("../../uploads/img/opti/320/lump-decouvrir-320.png");
+    }
+    .vote
+    {
+        background: url('../../uploads/img/opti/320/coeurs-320.png');
+    }
+    .background
+    {
+        background-image: url('../../uploads/img/opti/320/back-contact-320.png');
+ 992
 }
